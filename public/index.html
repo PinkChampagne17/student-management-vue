@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover"/>
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
+    <title>咚咚校园</title>
+    <style>
+      html, body, #app{
+        height: 100%;
+        margin: 0 auto;
+      }
+
+      /* 去除搜索框的title */
+      div.van-search > div > div > div.van-cell__title.van-field__label {
+        display: none;
+      }
+
+      /* 因CSS样式冲突，修正底部导航栏位置 */
+      div.van-tabbar__placeholder > div {
+        position: fixed;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

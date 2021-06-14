@@ -1,0 +1,27 @@
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('/img/background.jpg');
+  height: 100vh;
+}
+
+.title {
+  padding-top: 10vh;
+  font-size: 60px;
+  text-shadow: 2px 2px 3px #000000;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center!important;
+}
+
+.button-group {
+  margin-top: 47vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
+}
+
+button {
+  margin-bottom: 20px;
+}
